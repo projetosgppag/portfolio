@@ -635,10 +635,14 @@ body.offcanvas {
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500; }
+  .services.colorSteam{
+    border-bottom: 2px solid #fff; }
+    .services.colorSteam .icon2 i {
+      color: #fff; }
   .services.color-2 {
-    border-bottom: 2px solid #ec5453; }
+    border-bottom: 2px solid #f9bf3f; }
     .services.color-2 .icon2 i {
-      color: #ec5453; }
+      color: #fff; }
   .services.color-3 {
     border-bottom: 2px solid #f9bf3f; }
     .services.color-3 .icon2 i {
@@ -701,11 +705,11 @@ body.offcanvas {
       font-weight: 700;
       text-transform: uppercase; }
   .services.color-2 .icon {
-    background: #ec5453; }
+    background: #f9bf3f; }
     .services.color-2 .icon:before {
-      border-color: transparent transparent #ec5453 transparent; }
+      border-color: transparent transparent #f9bf3f transparent; }
     .services.color-2 .icon:after {
-      border-color: #ec5453 transparent transparent transparent; }
+      border-color: #f9bf3f transparent transparent transparent; }
   .services.color-3 .icon {
     background: #f9bf3f; }
     .services.color-3 .icon:before {
