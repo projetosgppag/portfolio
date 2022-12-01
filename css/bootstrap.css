@@ -2675,11 +2675,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #286090;
   border-color: #122b40;
 }
-.btn-primary:hover {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
-}
+
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #286090;
