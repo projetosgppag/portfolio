@@ -134,7 +134,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 									<div class="about-desc">
 										<span class="heading-meta">Sobre mim</span>
 										<h2 class="colorlib-heading">Quem eu sou?</h2>
-										<p><strong>Olá eu sou Gabriel Paulino</strong>, em baixo está um breve resumo das minhas qualificações</p>
+										<p><strong>Olá eu sou Gabriel Paulino</strong>, sou uma pessoa dedicada e esforçada que gosta de aprender. Em baixo está um breve resumo das minhas qualificações</p>
 										<p></p>
 									</div>
 								</div>
@@ -187,36 +187,51 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 						</div>
 					</div>
 					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
+						<div class="col-md-12 text-center animate-box">
 							<div class="services color-1">
 								<span class="icon">
 									<i class="icon-bulb"></i>
 								</span>
 								<div class="desc">
 									<h3>Machine Learning</h3>
-									<p></p>
+									<p>
+										<!-- Button trigger modal ML -->
+										<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mlModal">
+											Saiba mais
+										</button>
+									</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 text-center animate-box">
+						<div class="col-md-12 text-center animate-box">
 							<div class="services color-2">
 								<span class="icon">
 									<i class="icon-data"></i>
 								</span>
 								<div class="desc">
 									<h3>Banco de dados MySql</h3>
-									<p></p>
+									<p>
+										<!-- Button trigger modal DB -->
+										<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dbModal" id="corzinhabutton1">
+											Saiba mais
+										</button>										
+									</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 text-center animate-box">
+						<div class="col-md-12 text-center animate-box">
 							<div class="services color-4">
 								<span class="icon">
 									<i class="icon-phone3"></i>
 								</span>
 								<div class="desc">
-									<h3>Desenvolviment</h3>
-									<p></p>
+									<h3>Desenvolvimento de software</h3>
+									<p>
+										<!-- Button trigger modal DS -->
+										<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dsModal" id="corzinhabutton2">
+											Saiba mais
+										</button>	
+									</p>
 								</div>
 							</div>
 						</div>
@@ -443,8 +458,8 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Site basico django</a> <span>2022</span></h2>
-					                  <p>Fiz um sistema web basico para conhecer o django.</p>
+					               	<h2><a href="#">Site basico django/flask</a> <span>2022</span></h2>
+					                  <p>Fiz um sistema web basico para conhecer o django e o flask.</p>
 					               </div>
 					            </div>
 					         </article>
@@ -455,8 +470,8 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Site basico flask</a> <span>2022</span></h2>
-					                  <p>Fiz um sistema web basico para conhecer o flask.</p>
+					               	<h2><a href="#">Calculadora com interface web ou gráfica</a> <span>2022</span></h2>
+					                  <p>Calculadora é um ótimo projeto para iniciantes, eu gosto de fazer nas linguagens que eu estou aprendendo, já fiz em java python e javascript</p>
 					               </div>
 					            </div>
 					         </article>
@@ -537,7 +552,57 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					</div>
 				</div>
 			</section>
-
+			<!-- Modal ML-->
+				<div class="modal fade" id="mlModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Machine Learning</h4>
+						</div>
+						<div class="modal-body">
+						Fiz projetos de Machine Learning usando base de dados do Kaggle, com: KNN, SVM e Linear Regression
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+						</div>
+					</div>
+					</div>
+				</div>
+				<!-- Modaldb -->
+				<div class="modal fade" id="dbModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Banco de dados MySQL</h4>
+						</div>
+						<div class="modal-body">
+						Já fiz vários projetos usando MySQL, sistemas de cadastro, biblioteca, escola, hospital e etc...
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+						</div>
+					</div>
+					</div>
+				</div>
+				<!-- Modalds -->
+				<div class="modal fade" id="dsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Desenvolvimento de software</h4>
+						</div>
+						<div class="modal-body">
+						Já fiz vários softwares, jogos e aplicativos, usando java e python.
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+						</div>
+					</div>
+					</div>
+				</div>
 		</div><!-- end:colorlib-main -->
 	</div><!-- end:container-wrap -->
 	</div><!-- end:colorlib-page -->

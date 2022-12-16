@@ -79,7 +79,7 @@ figure {
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
+  overflow-y: hidden;
   z-index: 1001;
   background: #1e1e24;
   -webkit-transition: 0.5s;
@@ -1195,9 +1195,6 @@ body.offcanvas {
   background: #2c98f0;
   color: #fff;
   border: 2px solid #2c98f0; }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #44a4f2 !important;
-    border-color: #44a4f2 !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #2c98f0;
